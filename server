@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd `dirname "$0"`
+source "virtualenv/bin/activate"
+./manage.py runserver 0:8000
+
